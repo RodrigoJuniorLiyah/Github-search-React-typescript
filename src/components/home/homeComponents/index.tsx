@@ -41,7 +41,7 @@ export const HomeComponents = () => {
     } catch (error) {
       console.log(error);
 
-      toast.error("Excedeu o limite de requisições");
+      toast.error("Excedeu o limite de requisições, aguarde 2 minutos");
     }
 
     setLoading(false);
@@ -53,7 +53,7 @@ export const HomeComponents = () => {
 
       setUser(data);
     } catch (error) {
-      console.log(error);
+      toast.error("Você excedeu o limite de requisições");
     }
   };
 

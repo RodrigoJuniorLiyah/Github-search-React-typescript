@@ -6,9 +6,18 @@ export default defineConfig({
       // implement node event listeners here
     },
   },
+
+  component: {
+    devServer: {
+      framework: "create-react-app",
+      bundler: "webpack",
+    },
+  },
 });
 
 module.exports = {
   projectId: "svxw9m",
-  // The rest of the Cypress config options go here...
+  e2e: {
+    baseUrl: "http://localhost:3000",
+  },
 };

@@ -67,8 +67,12 @@ O projeto está organizado em módulos separados para melhor legibilidade e manu
 ---
 
 ## 🚀 Como executar o projeto
+Para executar o projeto localmente, siga os seguintes passos:
 
-3. Web (pasta do projeto) <a href="https://github.com/RodrigoJuniorLiyah/Angular-request-api-and-save-localstorage/archive/refs/heads/main.zip">baixe aqui</a>
+1. Clone o repositório: git clone https://github.com/RodrigoJuniorLiyah/Github-search-React-typescript
+2. Entre na pasta do projeto: cd Github-search-React-typescript
+3. Instale as dependências: yarn install ou npm install
+4. Execute o projeto: yarn dev ou npm dev
 
 ### Pré-requisitos
 

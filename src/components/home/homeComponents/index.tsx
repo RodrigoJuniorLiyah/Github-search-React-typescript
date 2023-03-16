@@ -15,7 +15,7 @@ import { Container, Modal } from "./styles";
 export const HomeComponents = () => {
   const [users, setUsers] = useState<User[]>([]);
   const [loading, setLoading] = useState(false);
-  const [search, setSearch] = useState<string>("");
+  const [search, setSearch] = useState<string>("Rodrigo");
   const [modal, setModal] = useState<string>("");
   const [user, setUser] = useState<urlUser>();
   const [url, setUrl] = useState<string>("");
@@ -40,14 +40,18 @@ export const HomeComponents = () => {
       }
     } catch (error) {
       console.log(error);
-
-      toast.error("Excedeu o limite de requisições, aguarde 2 minutos");
+      toast.error("Excedeu o limite de requisições, aguarde 1 minuto");
     }
 
     setLoading(false);
   };
 
   const getUrlUser = async (url: string) => {
+    if (url === "") {
+      setUser(undefined);
+      return;
+    }
+
     try {
       const { data } = await api.get(`/users/${url}`);
 
@@ -100,6 +104,7 @@ export const HomeComponents = () => {
             type="text"
             placeholder="Pesquisar"
             onChange={(e) => handleSearch(e)}
+            defaultValue={search}
           />
           <div className="containerSpinner">
             {loading && search !== "" && (
@@ -143,7 +148,7 @@ export const HomeComponents = () => {
                       <div className="repos">
                         <div className="repo">
                           <h3>URL perfil</h3>
-                          <a target={"_blank"} href={html_url} rel="noreferrer">
+                          <a onClick={(e) => e.stopPropagation()} target={"_blank"} href={html_url} rel="noreferrer">
                             Clique aqui
                           </a>
                         </div>
@@ -154,9 +159,10 @@ export const HomeComponents = () => {
                           <AiOutlineUser />
                         </button>
                         <button
-                          onClick={() =>
-                            window.open(`${html_url}?tab=repositories`)
-                          }
+                          onClick={(e) => {
+                            window.open(`${html_url}?tab=repositories`);
+                            e.stopPropagation();
+                          }}
                           type="button"
                         >
                           <RiGitRepositoryCommitsLine />

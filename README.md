@@ -59,9 +59,9 @@ O projeto está organizado em módulos separados para melhor legibilidade e manu
 ### Images
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;flex-direction: column">
-<img alt="layout" title="layout" src="./assets/imgs/home.png" height="400">
-<img alt="validation" title="validation" src="./assets/imgs/modal.png" height="400">
-<img alt="localstorage" title="localstorage" src="./assets/imgs/notfound.png" height="400">
+<img alt="Home" title="home" src="./src/assets/imgs/home.png" height="400">
+<img alt="modal" title="modal" src="./src/assets/imgs/modal.png" height="400">
+<img alt="notfound" title="notfound" src="./src/assets/imgs/notfound.png" height="400">
 </p>
 
 ---

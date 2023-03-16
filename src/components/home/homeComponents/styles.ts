@@ -263,7 +263,7 @@ export const Modal = styled.div`
   z-index: 3;
 
   .modal {
-    width: 70%;
+    width: 700px;
     height: 70%;
 
     box-shadow: 0px 0px 6px 1px rgba(159, 123, 225, 10.3);

@@ -1,46 +1,120 @@
-# Getting Started with Create React App
+<p align="center">
+  <img alt="GitHub language count"
+  src="https://img.shields.io/badge/languages-1-green">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <a href="https://twitter.com/Legend_Attack">
+    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FLegend_Attack">
+  </a>
 
-## Available Scripts
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/RodrigoJuniorLiyah/Angular-request-api-and-save-localstorage/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/RodrigoJuniorLiyah/Angular-request-api-and-save-localstorage?style=social">
+  </a>
 
-In the project directory, you can run:
+  <a href="https://github.com/RodrigoJuniorLiyah/Angular-request-api-and-save-localstorage/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/RodrigoJuniorLiyah/Angular-request-api-and-save-localstorage">
+  </a>
+</p>
 
-### `yarn start`
+<h1 align="center">
+  Github Search
+</h1>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h4 align="center"> 
+	🚧  Github Search 👨‍💻 Concluído 🚀 🚧
+</h4>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-autor">Autor</a> • 
+ <a href="#user-content--licença">Licença</a>
+</p>
 
-### `yarn test`
+## 💻 Sobre o projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Este é um componente de uma aplicação React que permite pesquisar usuários do Github e exibir algumas informações sobre eles. Quando o usuário digita um termo de pesquisa na barra de pesquisa, o componente envia uma solicitação à API do Github e exibe os resultados da pesquisa como uma lista de cards. Quando o usuário clica em um card, um modal é aberto exibindo informações mais detalhadas sobre o usuário. Também há feedback de possíveis erros em caso de: Usuário não encontrado, excesso de requisições e falha na requisição.
 
-### `yarn build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️Funcionalidades
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [x] Pesquisar usuários do Github através da API do Github
+- [x] Exibir informações básicas dos usuários em cards na tela
+- [x] Exibir informações detalhadas de um usuário em um modal
+- [x] Feedback de erros em caso de usuário não encontrado, excesso de requisições ou falha na requisição.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `yarn eject`
+## 💡Funcionamento
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+O componente utiliza o hook useState para armazenar os dados do usuário e indicar quando a página está carregando. O hook useEffect é utilizado para atualizar a página quando o usuário faz uma pesquisa ou quando um usuário é selecionado. A biblioteca Axios é utilizada para fazer a requisição à API do Github.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+O projeto está organizado em módulos separados para melhor legibilidade e manutenibilidade, utilizando a estrutura de pastas do tipo Componentização.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Images
 
-## Learn More
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;flex-direction: column">
+<img alt="layout" title="layout" src="./assets/printscreen/main-layout.png" height="400">
+<img alt="validation" title="validation" src="./assets/printscreen/validation.png" height="400">
+<img alt="localstorage" title="localstorage" src="./assets/printscreen/localstorage.png" height="400">
+</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Como executar o projeto
+
+3. Web (pasta do projeto) <a href="https://github.com/RodrigoJuniorLiyah/Angular-request-api-and-save-localstorage/archive/refs/heads/main.zip">baixe aqui</a>
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+---
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- **[React](https://pt-br.reactjs.org/)**
+- **[Chakra UI](https://chakra-ui.com/)**
+- **[React Icons](https://react-icons.github.io/react-icons/)**
+- **[Toastify](https://fkhadra.github.io/react-toastify/introduction)**
+- **[Axios](https://www.npmjs.com/package/axios)**
+- **[Cypress](https://www.cypress.io/)**
+
+> Veja o arquivo [package.json](https://github.com/RodrigoJuniorLiyah/Github-search-React-typescript/blob/main/package.json)
+
+## 💪 Como contribuir para o projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+
+> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
+
+---
+
+## 🐱‍👤 Autor
+
+ <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/58194578?s=460&u=2cce4cfe93c827e033d632f223d61ffebc496c00&v=4" width="100px;"/>
+ <sub><b>Rodrigo Cabral 🚀</b></sub>
+ <br />
+
+[![Twitter Badge](https://img.shields.io/badge/-@Legend_Attack-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/tgmarinho)](https://twitter.com/Legend_Attack) [![Linkedin Badge](https://img.shields.io/badge/-Rodrigo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rodrigo-junior/)](https://www.linkedin.com/in/rodrigo-junior-969184166/)
+[![Outlook Badge](https://img.shields.io/badge/-rodrigo.junior7@outlook.com-c14438?style=flat-square&logo=Outlook&logoColor=white&link=mailto:rodrigo.junior7@outlook.com)](mailto:rodrigo.junior7@outlook.com)
+
+---
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito com ❤️ por Rodrigo Junior 👋🏽 [Entre em contato!](https://www.linkedin.com/in/rodrigo-cabral-dev/)

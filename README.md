@@ -1,18 +1,14 @@
 <p align="center">
   <img alt="GitHub language count"
-  src="https://img.shields.io/badge/languages-1-green">
-
-  <a href="https://twitter.com/Legend_Attack">
-    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FLegend_Attack">
-  </a>
+  src="https://img.shields.io/badge/languages-2-green">
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/RodrigoJuniorLiyah/Angular-request-api-and-save-localstorage/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/RodrigoJuniorLiyah/Angular-request-api-and-save-localstorage?style=social">
+   <a href="https://github.com/RodrigoJuniorLiyah/Github-search-React-typescript/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/RodrigoJuniorLiyah/Github-search-React-typescript?style=social">
   </a>
 
-  <a href="https://github.com/RodrigoJuniorLiyah/Angular-request-api-and-save-localstorage/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/RodrigoJuniorLiyah/Angular-request-api-and-save-localstorage">
+  <a href="https://github.com/RodrigoJuniorLiyah/Github-search-React-typescript/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/RodrigoJuniorLiyah/Github-search-React-typescript">
   </a>
 </p>
 
